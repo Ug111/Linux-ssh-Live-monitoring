@@ -21,7 +21,7 @@ This project demonstrates detection and automation of SSH brute-force login atte
   ### 📸 Live Monitoring
   ![Live Monitoring](screenshots/live_monitoring.png)
   
-  ### 📸 Alert Escalation
+  ### 🚨 Alert Escalation
   ![Alert Increasing](screenshots/alert_increasing.png)
   
   ### ⏱ Cron Automation
@@ -32,7 +32,7 @@ This project demonstrates detection and automation of SSH brute-force login atte
 ### 📄 Execution Logs
  Verified automated execution: cat /home/ugoo/cron_log.txt
  📸 Cron Log Output
- ![Cron Log](screenshots/cron_log_execution.png)
+![Cron Log](screenshots/cron_log_execution.png)
 
 ### 📊 Generated Security Report
 Script produces structured detection report: cat /home/ugoo/ssh_security_report.txt
