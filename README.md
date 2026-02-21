@@ -1,5 +1,5 @@
 # Linux SSH Brute Force Monitoring & Automation
-🔐 Project Overview
+🔐 Project Overview:
 This project demonstrates detection and automation of SSH brute-force login attempts on a Linux system using:
 	•	Bash scripting
 	•	Log analysis
