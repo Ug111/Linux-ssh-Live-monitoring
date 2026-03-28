@@ -71,7 +71,6 @@ The logic was upgraded to dynamically detect the keyword "from" and extract the 
 	•	Incident simulation
     •	Detection engineering fundamentals
 
-	---
 
   🚀 Future Improvements
 	•	Log forwarding to SIEM
@@ -80,6 +79,5 @@ The logic was upgraded to dynamically detect the keyword "from" and extract the 
 	•	IP blocking automation
 
 ---
-
 
   
