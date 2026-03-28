@@ -36,7 +36,7 @@ This project demonstrates detection and automation of SSH brute-force login atte
 ### 📊 Generated Security Report
 Script produces structured detection report: cat /home/ugoo/ssh_security_report.txt
 📸 Security Report Output
-![Security Report](screenshots/security_report.pmg)
+![Security Report](screenshots/scurity_report.png)
 
 🛠 Skills Demonstrated
 	•	Linux log analysis
