@@ -50,6 +50,17 @@ Script produces structured detection report: cat /home/ugoo/ssh_security_report.
 
 ---
 
+### 🔧 Improved IP Extraction Logic
+
+Initially, the script extracted a fixed field position from auth.log, which caused incorrect username parsing.
+The logic was upgraded to dynamically detect the keyword "from" and extract the following field (source IP address):
+``bash
+ awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}'
+
+📸Screenshot:
+![Improved IP Detection](screenshots/improved_ip_detection_logic.png)
+
+---
 🛠 Skills Demonstrated
 	•	Linux log analysis
 	•	Bash scripting
@@ -67,16 +78,5 @@ Script produces structured detection report: cat /home/ugoo/ssh_security_report.
 	•	IP blocking automation
 ---
 
-### 🔧 Improved IP Extraction Logic
-
-Initially, the script extracted a fixed field position from auth.log, which caused incorrect username parsing.
-The logic was upgraded to dynamically detect the keyword "from" and extract the following field (source IP address):
-``bash
- awk '{for(i=1;i<=NF;i++) if($i=="from") print $(i+1)}'
-
-📸Screenshot:
-![Improved IP Detection](screenshots/improved_ip_detection_logic.png)
-
----
 
   
