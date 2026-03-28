@@ -61,6 +61,7 @@ The logic was upgraded to dynamically detect the keyword "from" and extract the 
 ![Improved IP Detection](screenshots/improved_ip_detection_logic.png)
 
 ---
+
 🛠 Skills Demonstrated
 	•	Linux log analysis
 	•	Bash scripting
@@ -69,13 +70,15 @@ The logic was upgraded to dynamically detect the keyword "from" and extract the 
 	•	Cron automation
 	•	Incident simulation
     •	Detection engineering fundamentals
+
 	---
 
   🚀 Future Improvements
-	•	Log forw📸arding to SIEM
+	•	Log forwarding to SIEM
 	•	Integration with Wazuh
 	•	Alert email notification
 	•	IP blocking automation
+
 ---
 
 
